@@ -210,6 +210,12 @@ public class CrmAuth {
 			return "crmemea:dynamics.com";
 		if (url.toUpperCase().contains("CRM5.DYNAMICS.COM"))
 			return "crmapac:dynamics.com";
+		if (url.toUpperCase().contains("CRM6.DYNAMICS.COM"))
+			return "crmoce:dynamics.com";
+		if (url.toUpperCase().contains("CRM7.DYNAMICS.COM"))
+			return "crmjpn:dynamics.com";
+		if (url.toUpperCase().contains("CRM8.DYNAMICS.COM"))
+			return "crmgcc:dynamics.com";
 
 		return "crmna:dynamics.com";
 	}

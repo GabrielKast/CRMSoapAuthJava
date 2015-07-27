@@ -244,7 +244,7 @@ public class CrmAuth {
 			return null;
 		Date now = new Date();
 		String urnAddress = url + "XRMServices/2011/Organization.svc";
-		String usernamemixed = adfsUrl + "/13/usernamemixed";
+		String usernamemixed = adfsUrl + "/trust/13/usernamemixed";
 
 		TimeZone gmtTZ = TimeZone.getTimeZone("GMT");
 		SimpleDateFormat formatter = new SimpleDateFormat(
